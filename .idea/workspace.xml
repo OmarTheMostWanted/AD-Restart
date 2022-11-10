@@ -5,12 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a980e8bc-9ffc-4808-b53c-aa42b15ae7ef" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Fun/StableMatchingProblem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Fun/StableMatchingProblemTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/GreedyAlgorithms/CanWeGetOut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/GreedyAlgorithms/GettingOutTheFastest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/GreedyAlgorithms/PackingTrucks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/GreedyAlgorithms/SortingInAFewMinutes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/GreedyAlgorithms/TrainRouting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Tools/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Tools/UnionJoin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/GreedyAlgorithms/CanWeGetOutTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/GreedyAlgorithms/FindingTheMedianTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/GreedyAlgorithms/GettingOutTheFastestTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/GreedyAlgorithms/PackingTrucksTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/GreedyAlgorithms/SortingInAFewMinutesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/GreedyAlgorithms/TrainRoutingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Tools/UnionJoinTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GreedyAlgorithms/FindingTheMedian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GreedyAlgorithms/FindingTheMedian.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Fun/StableMatchingProblemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Fun/StableMatchingProblemTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +33,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -38,53 +51,95 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "extract.method.default.visibility": "private",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="GreedyAlgorithms" />
+      <recent name="Tools" />
       <recent name="Fun" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StableMatchingProblem">
-    <configuration name="StableMatchingProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Fun.StableMatchingProblem" />
+  <component name="RunManager" selected="JUnit.GettingOutTheFastestTest">
+    <configuration name="All in AD-Restart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AD-Restart" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Fun.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StableMatchingProblemTest.Teest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GettingOutTheFastestTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AD-Restart" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Fun.*" />
+          <option name="PATTERN" value="GreedyAlgorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Fun" />
-      <option name="MAIN_CLASS_NAME" value="Fun.StableMatchingProblemTest" />
-      <option name="METHOD_NAME" value="Teest" />
+      <option name="PACKAGE_NAME" value="GreedyAlgorithms" />
+      <option name="MAIN_CLASS_NAME" value="GreedyAlgorithms.GettingOutTheFastestTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GreedyAlgorithms in AD-Restart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AD-Restart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GreedyAlgorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="GreedyAlgorithms" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TrainRoutingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AD-Restart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GreedyAlgorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="GreedyAlgorithms" />
+      <option name="MAIN_CLASS_NAME" value="GreedyAlgorithms.TrainRoutingTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TrainRoutingTest.example" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AD-Restart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GreedyAlgorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="GreedyAlgorithms" />
+      <option name="MAIN_CLASS_NAME" value="GreedyAlgorithms.TrainRoutingTest" />
+      <option name="METHOD_NAME" value="example" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -92,8 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StableMatchingProblem" />
-        <item itemvalue="JUnit.StableMatchingProblemTest.Teest" />
+        <item itemvalue="JUnit.GettingOutTheFastestTest" />
+        <item itemvalue="JUnit.GreedyAlgorithms in AD-Restart" />
+        <item itemvalue="JUnit.TrainRoutingTest" />
+        <item itemvalue="JUnit.All in AD-Restart" />
+        <item itemvalue="JUnit.TrainRoutingTest.example" />
       </list>
     </recent_temporary>
   </component>
@@ -110,6 +168,9 @@
       <workItem from="1665057015238" duration="11426000" />
       <workItem from="1665073349058" duration="5835000" />
       <workItem from="1665661677306" duration="599000" />
+      <workItem from="1667927730504" duration="1773000" />
+      <workItem from="1667929526348" duration="8965000" />
+      <workItem from="1668087998443" duration="15891000" />
     </task>
     <task id="LOCAL-00001" summary="setup project">
       <created>1655648193879</created>
@@ -146,7 +207,42 @@
           <line>177</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/GreedyAlgorithms/FindingTheMedian.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Tools/UnionJoinTest.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/GreedyAlgorithms/FindingTheMedian.java</url>
+          <line>8</line>
+          <properties class="GreedyAlgorithms.FindingTheMedian" method="solve">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/Tools/UnionJoin.java</url>
+          <line>7</line>
+          <properties class="Tools.UnionJoin" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="l" />
+        <watch expression="r" />
+        <watch expression="list" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
