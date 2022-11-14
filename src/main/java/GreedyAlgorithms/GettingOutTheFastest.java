@@ -26,6 +26,15 @@ public class GettingOutTheFastest {
         public int hashCode() {
             return Objects.hash(from, to, weight);
         }
+
+        @Override
+        public String toString() {
+            return "Edge{" +
+                    "from=" + from +
+                    ", to=" + to +
+                    ", weight=" + weight +
+                    '}';
+        }
     }
 
     static class Node implements Comparable<Node> {
@@ -37,9 +46,19 @@ public class GettingOutTheFastest {
             this.weight = weight;
         }
 
+
+
         @Override
         public int compareTo(Node o) {
             return Integer.compare(this.weight, o.weight);
+        }
+
+        @Override
+        public String toString() {
+            return "Node{" +
+                    "id=" + id +
+                    ", weight=" + weight +
+                    '}';
         }
     }
 
@@ -55,13 +74,21 @@ public class GettingOutTheFastest {
      */
     public static int getMeOuttaHere(int n, int m, int s, int t, Set<Edge> edges) {
 
-        var distances = new Node[n + 1];
+        if(s == t) return 0;
+        if(edges.isEmpty()) return -1;  
 
-        for (int i = 0; i < distances.length; i++) {
-            distances[i] = new Node(i, -1);
+        var distances = new Node[n+1];
+
+        for (int i = 1; i < distances.length; i++) {
+            if(i == s) distances[i] = new Node(i, 0);
+            else distances[i] = new Node(i, Integer.MAX_VALUE);
         }
 
         var graph = new HashMap<Integer, ArrayList<Edge>>();
+
+        for (int i = 1; i < n; i++) {
+            graph.put(i , new ArrayList<>());
+        }
 
         for (Edge edge : edges) {
             if (!graph.containsKey(edge.from)) {
@@ -71,35 +98,30 @@ public class GettingOutTheFastest {
         }
 
         for (Edge edge : edges) {
-            if (edge.to == s) {
-                distances[s].weight = 0;
-                continue;
-            }
             if (edge.from == s) distances[edge.to].weight = edge.weight + graph.get(edge.from).size();
-            else distances[edge.to].weight = Integer.MAX_VALUE;
         }
 
         var queue = new PriorityQueue<Node>();
-        queue.add(distances[s]);
 
-        var visited = new HashSet<Integer>();
-        visited.add(s);
+        for (Edge edge : graph.get(s)) {
+            queue.add(distances[edge.to]);
+        }
 
         while (!queue.isEmpty()) {
             var closest = queue.poll();
+
             var outGoingEdges = graph.get(closest.id);
 
             if (outGoingEdges == null) continue;
 
             for (Edge outGoingEdge : outGoingEdges) {
-                if (distances[outGoingEdge.to].weight > (outGoingEdge.weight + distances[closest.id].weight) + graph.get(outGoingEdge.from).size()) {
-                    distances[outGoingEdge.to].weight = (outGoingEdge.weight + distances[closest.id].weight + graph.get(outGoingEdge.from).size());
+                if (distances[outGoingEdge.to].weight > ((outGoingEdge.weight + distances[closest.id].weight) + (  graph.get(outGoingEdge.from).size()))) {
+                    distances[outGoingEdge.to].weight = ((outGoingEdge.weight + distances[closest.id].weight + (  graph.get(outGoingEdge.from).size())));
+                    queue.add(distances[outGoingEdge.to]);
                 }
-                if(!visited.contains(outGoingEdge.to)) queue.add(distances[outGoingEdge.to]);
             }
-            visited.add(closest.id);
         }
-        return distances[t].weight + 1;
+        return distances[t].weight == Integer.MAX_VALUE ? -1 : distances[t].weight;
 
     }
 
