@@ -10,15 +10,100 @@ import java.io.IOException;
 import java.nio.file.Files;
 
 import java.nio.file.Paths;
-import java.util.HashSet;
-import java.util.Scanner;
+import java.util.*;
 
-import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 import GreedyAlgorithms.TrainRouting.Edge;
 
 class TrainRoutingTest {
+
+    private static class SNode {
+
+        List<SNode> outgoingEdges;
+
+        int id;
+
+        boolean marked;
+
+        public SNode(int id) {
+            this.outgoingEdges = new ArrayList<>();
+            this.marked = false;
+            this.id = id;
+        }
+
+        public String toString() {
+            return Integer.toString(id);
+        }
+
+        @Override
+        public int hashCode() {
+            return id;
+        }
+    }
+
+    private  static class SEdge {
+
+        int from, to;
+
+        public SEdge(int from, int to) {
+            this.from = from;
+            this.to = to;
+        }
+
+        @Override
+        public boolean equals(Object o) {
+            if (this == o) return true;
+            if (o == null || getClass() != o.getClass()) return false;
+            SEdge edge = (SEdge) o;
+            return from == edge.from && to == edge.to;
+        }
+
+        @Override
+        public int hashCode() {
+            return Objects.hash(from, to);
+        }
+    }
+
+    public boolean solve(int n, int m, Set<SEdge> edges) {
+        Map<Integer, SNode> nodes = new HashMap<>();
+        for (int i = 1; i <= n; i++) {
+            nodes.put(i, new SNode(i));
+        }
+        for (SEdge e : edges) {
+            nodes.get(e.from).outgoingEdges.add(nodes.get(e.to));
+        }
+        for (int i = 1; i <= n; i++) {
+            if (dfsCycleI(nodes.get(i))) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public boolean dfsCycleI(SNode node) {
+        Stack<SNode> stack = new Stack<>();
+        Set<SNode> visited = new HashSet<>();
+        for (SNode n : node.outgoingEdges) {
+            stack.push(n);
+            visited.add(n);
+        }
+        while (!stack.isEmpty()) {
+            SNode curr = stack.pop();
+            if (curr == node) {
+                return true;
+            }
+            for (SNode n : curr.outgoingEdges) {
+                if (!visited.contains(n)) {
+                    stack.push(n);
+                    visited.add(n);
+                }
+            }
+        }
+        return false;
+    }
+
+
 
     private static void runTestWithFile(String fileName) {
 
