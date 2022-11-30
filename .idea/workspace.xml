@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a980e8bc-9ffc-4808-b53c-aa42b15ae7ef" name="Changes" comment="progress">
-      <change afterPath="$PROJECT_DIR$/src/main/java/GreedyAlgorithms/AssigningWorkstations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/GreedyAlgorithms/SettingUpAWirelessNetworkInRemoteAreas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/GreedyAlgorithms/UnionFind.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Tools/UnionFind.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/GreedyAlgorithms/SettingUpAWirelessNetworkInRemoteAreasTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/GreedyAlgorithms/UnionFindTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tools/UnionFindTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/GreedyAlgorithms/AssigningWorkstationsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GreedyAlgorithms/AssigningWorkstations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GreedyAlgorithms/AssigningWorkstations.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -72,7 +67,23 @@
       <recent name="Fun" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SettingUpAWirelessNetworkInRemoteAreasTest.example">
+  <component name="RunManager" selected="JUnit.AssigningWorkstationsTest.example">
+    <configuration name="AssigningWorkstationsTest.example" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AD-Restart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GreedyAlgorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="GreedyAlgorithms" />
+      <option name="MAIN_CLASS_NAME" value="GreedyAlgorithms.AssigningWorkstationsTest" />
+      <option name="METHOD_NAME" value="example" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SettingUpAWirelessNetworkInRemoteAreasTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AD-Restart" />
       <extension name="coverage">
@@ -135,22 +146,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UnionFindTest.Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AD-Restart" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tools.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Tools" />
-      <option name="MAIN_CLASS_NAME" value="Tools.UnionFindTest" />
-      <option name="METHOD_NAME" value="Test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -164,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AssigningWorkstationsTest.example" />
         <item itemvalue="JUnit.SettingUpAWirelessNetworkInRemoteAreasTest.example" />
         <item itemvalue="JUnit.SettingUpAWirelessNetworkInRemoteAreasTest.budgetExample" />
         <item itemvalue="JUnit.SettingUpAWirelessNetworkInRemoteAreasTest" />
         <item itemvalue="JUnit.UnionFindTest" />
-        <item itemvalue="JUnit.UnionFindTest.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -202,6 +197,7 @@
       <workItem from="1668960531304" duration="4329000" />
       <workItem from="1669398979227" duration="2496000" />
       <workItem from="1669809709726" duration="6073000" />
+      <workItem from="1669820432787" duration="4059000" />
     </task>
     <task id="LOCAL-00001" summary="setup project">
       <created>1655648193879</created>
@@ -306,6 +302,11 @@
           <line>26</line>
           <option name="timeStamp" value="40" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/GreedyAlgorithms/AssigningWorkstations.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/GreedyAlgorithms/FindingTheMedian.java</url>
           <line>8</line>
@@ -358,10 +359,14 @@
         <watch expression="l" />
         <watch expression="r" />
         <watch expression="list" />
+        <watch expression="jobs.toString()" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/AD_Restart$AssigningWorkstationsTest_example.ic" NAME="AssigningWorkstationsTest.example Coverage Results" MODIFIED="1669823529027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>GreedyAlgorithms.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/AD_Restart$ParallelProcessingTest.ic" NAME="ParallelProcessingTest Coverage Results" MODIFIED="1668797787076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>GreedyAlgorithms.*</FILTER>
     </SUITE>

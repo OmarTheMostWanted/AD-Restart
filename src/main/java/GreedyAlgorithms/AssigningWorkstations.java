@@ -1,13 +1,12 @@
 package GreedyAlgorithms;
 
-import java.util.Arrays;
+import java.util.ArrayList;
 import java.util.PriorityQueue;
 
 public class AssigningWorkstations {
 
 
     private static class WorkStation implements Comparable<WorkStation> {
-        int id;
         public int busyUntil;
         static int timeout;
 
@@ -15,14 +14,13 @@ public class AssigningWorkstations {
             return busyUntil + timeout;
         }
 
-        public WorkStation(int id, int timeout) {
-            this.id = id;
+        public WorkStation(int timeout) {
             this.timeout = timeout;
         }
 
         @Override
         public String toString() {
-            return "WorkStation{" + "id=" + id + ", busyUntil=" + busyUntil + '}';
+            return "WorkStation{ busyUntil=" + busyUntil +  ", locks at: " + locksAt() + '}';
         }
 
         @Override
@@ -39,9 +37,13 @@ public class AssigningWorkstations {
             this.duration = duration;
         }
 
+        public int endAt(){
+            return start + duration;
+        }
+
         @Override
         public String toString() {
-            return "Job{" + "start=" + start + ", duration=" + duration + '}';
+            return "Job{" + "start=" + start + ", duration=" + duration + ", ends: " + endAt() +  '}';
         }
 
         @Override
@@ -58,11 +60,11 @@ public class AssigningWorkstations {
      * @return the number of unlocks that can be saved.
      */
     public static int solve(int n, int m, int[] start, int[] duration) {
-        Job[] jobs = new Job[n + 1];
-        for (int i = 1; i < n; i++) {
-            jobs[i] = new Job(start[i], duration[i]);
+        ArrayList<Job> jobs = new ArrayList<>();
+        for (int i = 1; i <= n; i++) {
+            jobs.add(new Job(start[i], duration[i]));
         }
-        Arrays.sort(jobs, 1, n);
+        jobs.sort(Job::compareTo);
 
         int unlocks = 0;
         PriorityQueue<WorkStation> workStations = new PriorityQueue<>();
@@ -70,19 +72,40 @@ public class AssigningWorkstations {
         for (Job job : jobs) {
             if (workStations.isEmpty()) {
                 unlocks++;
-                var ws = new WorkStation(workStations.size(), m);
-                ws.busyUntil = job.start + job.duration;
+                var ws = new WorkStation(m);
+                ws.busyUntil = job.endAt();
                 workStations.add(ws);
                 continue;
             }
-            if (workStations.peek() != null && workStations.peek().busyUntil < job.start) {
-                var ws = workStations.poll();
-                if (ws.locksAt() <= job.start) {
-                    unlocks++;
+            if (workStations.peek().busyUntil < job.start) {
+                while (!workStations.isEmpty()){
+                    var ws = workStations.peek();
+                    if(ws.locksAt() >= job.start) break;
+                    else workStations.poll();
                 }
-                ws.busyUntil = job.start + job.duration;
-            } else {
+                if(workStations.isEmpty()){
+                    unlocks++;
+                    var ws = new WorkStation(m);
+                    ws.busyUntil = job.endAt();
+                    workStations.add(ws);
+                } else {
+                    var ws = workStations.poll();
+                    ws.busyUntil = job.endAt();
+                    workStations.add(ws);
+                }
 
+
+//                var ws = workStations.poll();
+//                if (ws.locksAt() <= job.start) {
+//                    unlocks++;
+//                }
+//                ws.busyUntil = job.endAt();
+//                workStations.add(ws);
+            } else {
+                var ws = new WorkStation(m);
+                ws.busyUntil = job.endAt();
+                unlocks++;
+                workStations.add(ws);
             }
         }
         return unlocks;
