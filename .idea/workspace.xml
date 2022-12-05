@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a980e8bc-9ffc-4808-b53c-aa42b15ae7ef" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/GreedyAlgorithms/PlanningStoreLocations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/GreedyAlgorithms/PlanningStoreLocationsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/GreedyAlgorithms/TernaryHuffman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/GreedyAlgorithms/TernaryHuffmanTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GreedyAlgorithms/AssigningWorkstations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GreedyAlgorithms/AssigningWorkstations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GreedyAlgorithms/PlanningStoreLocations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GreedyAlgorithms/PlanningStoreLocations.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +73,7 @@
       <recent name="Fun" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PlanningStoreLocationsTest.twoForOne">
+  <component name="RunManager" selected="JUnit.TernaryHuffmanTest.exampleEncoding2">
     <configuration name="AssigningWorkstationsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AD-Restart" />
       <extension name="coverage">
@@ -85,54 +85,6 @@
       <option name="PACKAGE_NAME" value="GreedyAlgorithms" />
       <option name="MAIN_CLASS_NAME" value="GreedyAlgorithms.AssigningWorkstationsTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AssigningWorkstationsTest.Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AD-Restart" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="GreedyAlgorithms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="GreedyAlgorithms" />
-      <option name="MAIN_CLASS_NAME" value="GreedyAlgorithms.AssigningWorkstationsTest" />
-      <option name="METHOD_NAME" value="Test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AssigningWorkstationsTest.Test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AD-Restart" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="GreedyAlgorithms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="GreedyAlgorithms" />
-      <option name="MAIN_CLASS_NAME" value="GreedyAlgorithms.AssigningWorkstationsTest" />
-      <option name="METHOD_NAME" value="Test2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AssigningWorkstationsTest.example" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AD-Restart" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="GreedyAlgorithms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="GreedyAlgorithms" />
-      <option name="MAIN_CLASS_NAME" value="GreedyAlgorithms.AssigningWorkstationsTest" />
-      <option name="METHOD_NAME" value="example" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -153,13 +105,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TernaryHuffmanTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AD-Restart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GreedyAlgorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="GreedyAlgorithms" />
+      <option name="MAIN_CLASS_NAME" value="GreedyAlgorithms.TernaryHuffmanTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TernaryHuffmanTest.exampleDecoding" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AD-Restart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GreedyAlgorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="GreedyAlgorithms" />
+      <option name="MAIN_CLASS_NAME" value="GreedyAlgorithms.TernaryHuffmanTest" />
+      <option name="METHOD_NAME" value="exampleDecoding" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TernaryHuffmanTest.exampleEncoding2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AD-Restart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GreedyAlgorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="GreedyAlgorithms" />
+      <option name="MAIN_CLASS_NAME" value="GreedyAlgorithms.TernaryHuffmanTest" />
+      <option name="METHOD_NAME" value="exampleEncoding2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TernaryHuffmanTest.exampleEncoding2" />
+        <item itemvalue="JUnit.TernaryHuffmanTest.exampleDecoding" />
+        <item itemvalue="JUnit.TernaryHuffmanTest" />
         <item itemvalue="JUnit.PlanningStoreLocationsTest.twoForOne" />
         <item itemvalue="JUnit.AssigningWorkstationsTest" />
-        <item itemvalue="JUnit.AssigningWorkstationsTest.Test2" />
-        <item itemvalue="JUnit.AssigningWorkstationsTest.Test" />
-        <item itemvalue="JUnit.AssigningWorkstationsTest.example" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +194,7 @@
       <workItem from="1669809709726" duration="6073000" />
       <workItem from="1669820432787" duration="4376000" />
       <workItem from="1669901150839" duration="5054000" />
-      <workItem from="1670247928097" duration="3310000" />
+      <workItem from="1670247928097" duration="6564000" />
     </task>
     <task id="LOCAL-00001" summary="setup project">
       <created>1655648193879</created>
@@ -218,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669824799871</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="works">
+      <created>1670262863885</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670262863885</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,7 +236,8 @@
     <MESSAGE value="setup project" />
     <MESSAGE value="progress" />
     <MESSAGE value="progress but still broken" />
-    <option name="LAST_COMMIT_MESSAGE" value="progress but still broken" />
+    <MESSAGE value="works" />
+    <option name="LAST_COMMIT_MESSAGE" value="works" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -315,6 +322,16 @@
           <line>73</line>
           <option name="timeStamp" value="43" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/GreedyAlgorithms/TernaryHuffman.java</url>
+          <line>155</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/GreedyAlgorithms/TernaryHuffman.java</url>
+          <line>93</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/GreedyAlgorithms/FindingTheMedian.java</url>
           <line>8</line>
@@ -363,7 +380,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/GreedyAlgorithms/AssigningWorkstationsTest.java</url>
           <line>12</line>
-          <properties class="GreedyAlgorithms.AssigningWorkstationsTest" method="Test2">
+          <properties class="GreedyAlgorithms.AssigningWorkstationsTest" method="example">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>

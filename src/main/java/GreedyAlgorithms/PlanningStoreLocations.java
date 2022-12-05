@@ -141,7 +141,6 @@ public class PlanningStoreLocations {
         }
         UnionFind unionFind = new UnionFind(houses);
         distances.sort(Comparator.comparingLong(distance -> distance.distance));
-
         int s = 0;
         int pointer = 0;
         while (s < n - k  && pointer <= n) {
@@ -151,19 +150,15 @@ public class PlanningStoreLocations {
             }
             pointer++;
         }
-
         var clusters = unionFind.clusters();
         var stores = new HashSet<Store>();
-
         for (List<House> cluster : clusters) {
             double x = 0;
             double y = 0;
-
             for (House house : cluster) {
                 x+= house.x;
                 y+= house.y;
             }
-
             stores.add(new Store(x/cluster.size() , y/cluster.size()));
         }
         return stores;
