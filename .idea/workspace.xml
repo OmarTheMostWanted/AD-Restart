@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a980e8bc-9ffc-4808-b53c-aa42b15ae7ef" name="Changes" comment="progress">
-      <change afterPath="$PROJECT_DIR$/src/test/java/GreedyAlgorithms/AssigningWorkstationsTest.java" afterDir="false" />
+    <list default="true" id="a980e8bc-9ffc-4808-b53c-aa42b15ae7ef" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/GreedyAlgorithms/PlanningStoreLocations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/GreedyAlgorithms/PlanningStoreLocationsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/GreedyAlgorithms/AssigningWorkstations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GreedyAlgorithms/AssigningWorkstations.java" afterDir="false" />
     </list>
@@ -46,17 +47,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -67,7 +73,54 @@
       <recent name="Fun" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AssigningWorkstationsTest.example">
+  <component name="RunManager" selected="JUnit.PlanningStoreLocationsTest.twoForOne">
+    <configuration name="AssigningWorkstationsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AD-Restart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GreedyAlgorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="GreedyAlgorithms" />
+      <option name="MAIN_CLASS_NAME" value="GreedyAlgorithms.AssigningWorkstationsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AssigningWorkstationsTest.Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AD-Restart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GreedyAlgorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="GreedyAlgorithms" />
+      <option name="MAIN_CLASS_NAME" value="GreedyAlgorithms.AssigningWorkstationsTest" />
+      <option name="METHOD_NAME" value="Test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AssigningWorkstationsTest.Test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AD-Restart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GreedyAlgorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="GreedyAlgorithms" />
+      <option name="MAIN_CLASS_NAME" value="GreedyAlgorithms.AssigningWorkstationsTest" />
+      <option name="METHOD_NAME" value="Test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AssigningWorkstationsTest.example" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AD-Restart" />
       <extension name="coverage">
@@ -84,7 +137,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SettingUpAWirelessNetworkInRemoteAreasTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PlanningStoreLocationsTest.twoForOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AD-Restart" />
       <extension name="coverage">
         <pattern>
@@ -93,77 +146,20 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="GreedyAlgorithms" />
-      <option name="MAIN_CLASS_NAME" value="GreedyAlgorithms.SettingUpAWirelessNetworkInRemoteAreasTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SettingUpAWirelessNetworkInRemoteAreasTest.budgetExample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AD-Restart" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="GreedyAlgorithms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="GreedyAlgorithms" />
-      <option name="MAIN_CLASS_NAME" value="GreedyAlgorithms.SettingUpAWirelessNetworkInRemoteAreasTest" />
-      <option name="METHOD_NAME" value="budgetExample" />
+      <option name="MAIN_CLASS_NAME" value="GreedyAlgorithms.PlanningStoreLocationsTest" />
+      <option name="METHOD_NAME" value="twoForOne" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SettingUpAWirelessNetworkInRemoteAreasTest.example" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AD-Restart" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="GreedyAlgorithms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="GreedyAlgorithms" />
-      <option name="MAIN_CLASS_NAME" value="GreedyAlgorithms.SettingUpAWirelessNetworkInRemoteAreasTest" />
-      <option name="METHOD_NAME" value="example" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UnionFindTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AD-Restart" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="GreedyAlgorithms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="GreedyAlgorithms" />
-      <option name="MAIN_CLASS_NAME" value="GreedyAlgorithms.UnionFindTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PlanningStoreLocationsTest.twoForOne" />
+        <item itemvalue="JUnit.AssigningWorkstationsTest" />
+        <item itemvalue="JUnit.AssigningWorkstationsTest.Test2" />
+        <item itemvalue="JUnit.AssigningWorkstationsTest.Test" />
         <item itemvalue="JUnit.AssigningWorkstationsTest.example" />
-        <item itemvalue="JUnit.SettingUpAWirelessNetworkInRemoteAreasTest.example" />
-        <item itemvalue="JUnit.SettingUpAWirelessNetworkInRemoteAreasTest.budgetExample" />
-        <item itemvalue="JUnit.SettingUpAWirelessNetworkInRemoteAreasTest" />
-        <item itemvalue="JUnit.UnionFindTest" />
       </list>
     </recent_temporary>
   </component>
@@ -197,7 +193,9 @@
       <workItem from="1668960531304" duration="4329000" />
       <workItem from="1669398979227" duration="2496000" />
       <workItem from="1669809709726" duration="6073000" />
-      <workItem from="1669820432787" duration="4059000" />
+      <workItem from="1669820432787" duration="4376000" />
+      <workItem from="1669901150839" duration="5054000" />
+      <workItem from="1670247928097" duration="3310000" />
     </task>
     <task id="LOCAL-00001" summary="setup project">
       <created>1655648193879</created>
@@ -213,16 +211,26 @@
       <option name="project" value="LOCAL" />
       <updated>1668879137959</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="progress but still broken">
+      <created>1669824799871</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669824799871</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="setup project" />
     <MESSAGE value="progress" />
-    <option name="LAST_COMMIT_MESSAGE" value="progress" />
+    <MESSAGE value="progress but still broken" />
+    <option name="LAST_COMMIT_MESSAGE" value="progress but still broken" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -304,7 +312,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/GreedyAlgorithms/AssigningWorkstations.java</url>
-          <line>72</line>
+          <line>73</line>
           <option name="timeStamp" value="43" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
@@ -351,6 +359,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/GreedyAlgorithms/AssigningWorkstationsTest.java</url>
+          <line>12</line>
+          <properties class="GreedyAlgorithms.AssigningWorkstationsTest" method="Test2">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="46" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

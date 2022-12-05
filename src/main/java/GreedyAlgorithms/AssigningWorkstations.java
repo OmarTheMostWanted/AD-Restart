@@ -67,6 +67,7 @@ public class AssigningWorkstations {
         jobs.sort(Job::compareTo);
 
         int unlocks = 0;
+        int unlocksSaved = 0;
         PriorityQueue<WorkStation> workStations = new PriorityQueue<>();
 
         for (Job job : jobs) {
@@ -77,7 +78,7 @@ public class AssigningWorkstations {
                 workStations.add(ws);
                 continue;
             }
-            if (workStations.peek().busyUntil < job.start) {
+            if (workStations.peek().busyUntil <= job.start) {
                 while (!workStations.isEmpty()){
                     var ws = workStations.peek();
                     if(ws.locksAt() >= job.start) break;
@@ -92,6 +93,7 @@ public class AssigningWorkstations {
                     var ws = workStations.poll();
                     ws.busyUntil = job.endAt();
                     workStations.add(ws);
+                    unlocksSaved++;
                 }
 
 
@@ -108,7 +110,7 @@ public class AssigningWorkstations {
                 workStations.add(ws);
             }
         }
-        return unlocks;
+        return n - unlocks;
 
     }
 }
