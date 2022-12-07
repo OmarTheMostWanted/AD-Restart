@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a980e8bc-9ffc-4808-b53c-aa42b15ae7ef" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/GreedyAlgorithms/TernaryHuffman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/GreedyAlgorithms/TernaryHuffmanTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GreedyAlgorithms/PlanningStoreLocations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GreedyAlgorithms/PlanningStoreLocations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GreedyAlgorithms/TernaryHuffman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GreedyAlgorithms/TernaryHuffman.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,22 +45,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -73,22 +71,7 @@
       <recent name="Fun" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TernaryHuffmanTest.exampleEncoding2">
-    <configuration name="AssigningWorkstationsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AD-Restart" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="GreedyAlgorithms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="GreedyAlgorithms" />
-      <option name="MAIN_CLASS_NAME" value="GreedyAlgorithms.AssigningWorkstationsTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.TernaryHuffmanTest.exampleBuildTree">
     <configuration name="PlanningStoreLocationsTest.twoForOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AD-Restart" />
       <extension name="coverage">
@@ -116,6 +99,22 @@
       <option name="PACKAGE_NAME" value="GreedyAlgorithms" />
       <option name="MAIN_CLASS_NAME" value="GreedyAlgorithms.TernaryHuffmanTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TernaryHuffmanTest.exampleBuildTree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AD-Restart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GreedyAlgorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="GreedyAlgorithms" />
+      <option name="MAIN_CLASS_NAME" value="GreedyAlgorithms.TernaryHuffmanTest" />
+      <option name="METHOD_NAME" value="exampleBuildTree" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -154,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TernaryHuffmanTest.exampleBuildTree" />
         <item itemvalue="JUnit.TernaryHuffmanTest.exampleEncoding2" />
         <item itemvalue="JUnit.TernaryHuffmanTest.exampleDecoding" />
         <item itemvalue="JUnit.TernaryHuffmanTest" />
         <item itemvalue="JUnit.PlanningStoreLocationsTest.twoForOne" />
-        <item itemvalue="JUnit.AssigningWorkstationsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -195,6 +194,7 @@
       <workItem from="1669820432787" duration="4376000" />
       <workItem from="1669901150839" duration="5054000" />
       <workItem from="1670247928097" duration="6564000" />
+      <workItem from="1670411851434" duration="6217000" />
     </task>
     <task id="LOCAL-00001" summary="setup project">
       <created>1655648193879</created>
@@ -324,13 +324,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/GreedyAlgorithms/TernaryHuffman.java</url>
-          <line>155</line>
+          <line>202</line>
           <option name="timeStamp" value="47" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/GreedyAlgorithms/TernaryHuffman.java</url>
-          <line>93</line>
+          <line>95</line>
           <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/GreedyAlgorithms/TernaryHuffman.java</url>
+          <line>164</line>
+          <option name="timeStamp" value="51" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/GreedyAlgorithms/FindingTheMedian.java</url>

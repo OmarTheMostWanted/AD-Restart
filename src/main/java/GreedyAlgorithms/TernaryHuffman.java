@@ -1,5 +1,7 @@
 package GreedyAlgorithms;
 
+import java.util.*;
+
 /**
  * WARNING: The spec tests are not necessarily equal to your grade! You can use them help you test
  * for the correctness of your algorithm, but the final grade is determined by a manual inspection
@@ -12,6 +14,15 @@ public class TernaryHuffman {
      * `parent`, `leftChild`, `middleChild`, and `rightChild` set appropriately! You may add methods to
      * this class, provided you do not change the names of existing methods or fields!
      */ static class Node {
+
+        public Node(Node child1, Node child2, Node child3) {
+            this.symbol = 0;
+            this.frequency = child1.frequency + child2.frequency + child3.frequency;
+            this.leftChild = child1;
+            this.middleChild = child2;
+            this.rightChild = child3;
+            this.parent = null;
+        }
 
         char symbol;
 
@@ -131,6 +142,7 @@ public class TernaryHuffman {
         return node.rightChild == null && node.middleChild == null && node.leftChild == null;
     }
 
+
     /**
      * You should implement this method. Remember to look at the even/oddness of the number
      * characters!
@@ -144,11 +156,62 @@ public class TernaryHuffman {
      * characters given.
      */
     public static Node buildHuffman(int n, char[] characters, double[] frequencies) {
-        if (n == 3) {
-            return new Node(Character.MAX_VALUE, frequencies[0] + frequencies[1] + frequencies[2], new Node(characters[0], frequencies[0]), new Node(characters[1], frequencies[1]), new Node(characters[2], frequencies[2]));
-        }
-        else {
 
+        return properTreeBuilding(n , characters , frequencies);
+//        PriorityQueue<Node> priorityQueue = new PriorityQueue<>(new Comparator<Node>() {
+//            @Override
+//            public int compare(Node node, Node t1) {
+//                return Double.compare(node.frequency, t1.frequency);
+//            }
+//        });
+//        for (int i = 0; i <= n; i++) {
+//            priorityQueue.add(new Node(characters[i], frequencies[i]));
+//        }
+//
+//        if(n % 2 == 0){
+//            priorityQueue.add(new Node((char) 0 , 0));
+//        }
+//
+//        while (true){
+//            var smallest = priorityQueue.poll();
+//            if(priorityQueue.isEmpty()) return smallest;
+//            else {
+//                var second = priorityQueue.poll();
+//                var third = priorityQueue.poll();
+//                var parent = new Node((char) 0, smallest.frequency + second.frequency + third.frequency , smallest , second , third);
+//                smallest.setParent(parent);
+//                second.setParent(parent);
+//                third.setParent(parent);
+//                priorityQueue.add(parent);
+//            }
+//        }
+    }
+    public static Node properTreeBuilding(int n, char[] characters, double[] frequencies) {
+        PriorityQueue<Node> nodes = new PriorityQueue<>(new Comparator<Node>() {
+            @Override
+            public int compare(Node node, Node t1) {
+                return Double.compare(node.frequency, t1.frequency);
+            }
+        });
+        for (int i = 1; i <= n; i++) {
+            nodes.add(new Node(characters[i], frequencies[i]));
+        }
+        if (n % 2 == 0) {
+            nodes.add(new Node((char) 0, 0));
+        }
+        while (true) {
+            Node smallestFrequency = nodes.poll();
+            if (nodes.isEmpty()) {
+                return smallestFrequency;
+            } else {
+                Node secondSmallest = nodes.poll();
+                Node thirdSmallest = nodes.poll();
+                Node newNode = new Node(smallestFrequency, secondSmallest, thirdSmallest);
+                thirdSmallest.setParent(newNode);
+                smallestFrequency.setParent(newNode);
+                secondSmallest.setParent(newNode);
+                nodes.offer(newNode);
+            }
         }
     }
 }
