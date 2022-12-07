@@ -156,35 +156,33 @@ public class TernaryHuffman {
      * characters given.
      */
     public static Node buildHuffman(int n, char[] characters, double[] frequencies) {
+        PriorityQueue<Node> priorityQueue = new PriorityQueue<>(new Comparator<Node>() {
+            @Override
+            public int compare(Node node, Node t1) {
+                return Double.compare(node.frequency, t1.frequency);
+            }
+        });
+        for (int i = 1; i <= n; i++) {
+            priorityQueue.add(new Node(characters[i], frequencies[i]));
+        }
 
-        return properTreeBuilding(n , characters , frequencies);
-//        PriorityQueue<Node> priorityQueue = new PriorityQueue<>(new Comparator<Node>() {
-//            @Override
-//            public int compare(Node node, Node t1) {
-//                return Double.compare(node.frequency, t1.frequency);
-//            }
-//        });
-//        for (int i = 0; i <= n; i++) {
-//            priorityQueue.add(new Node(characters[i], frequencies[i]));
-//        }
-//
-//        if(n % 2 == 0){
-//            priorityQueue.add(new Node((char) 0 , 0));
-//        }
-//
-//        while (true){
-//            var smallest = priorityQueue.poll();
-//            if(priorityQueue.isEmpty()) return smallest;
-//            else {
-//                var second = priorityQueue.poll();
-//                var third = priorityQueue.poll();
-//                var parent = new Node((char) 0, smallest.frequency + second.frequency + third.frequency , smallest , second , third);
-//                smallest.setParent(parent);
-//                second.setParent(parent);
-//                third.setParent(parent);
-//                priorityQueue.add(parent);
-//            }
-//        }
+        if(n % 2 == 0){
+            priorityQueue.add(new Node((char) 0 , 0));
+        }
+
+        while (true){
+            var smallest = priorityQueue.poll();
+            if(priorityQueue.isEmpty()) return smallest;
+            else {
+                var second = priorityQueue.poll();
+                var third = priorityQueue.poll();
+                var parent = new Node((char) 0, smallest.frequency + second.frequency + third.frequency , smallest , second , third);
+                smallest.setParent(parent);
+                second.setParent(parent);
+                third.setParent(parent);
+                priorityQueue.add(parent);
+            }
+        }
     }
     public static Node properTreeBuilding(int n, char[] characters, double[] frequencies) {
         PriorityQueue<Node> nodes = new PriorityQueue<>(new Comparator<Node>() {
