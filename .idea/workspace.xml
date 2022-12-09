@@ -5,8 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a980e8bc-9ffc-4808-b53c-aa42b15ae7ef" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/DivideAndConquer/ClosestPairPfPoints.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DivideAndConquer/DepthFirstSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DivideAndConquer/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DivideAndConquer/SortingAndCounting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DivideAndConquer/ClosestPairPfPointsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DivideAndConquer/DepthFirstSearchTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DivideAndConquer/MergeSortTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DivideAndConquer/SortingAndCountingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Tools/MergeSortTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GreedyAlgorithms/TernaryHuffman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GreedyAlgorithms/TernaryHuffman.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +27,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
         <option value="Class" />
         <option value="JUnit5 Test Class" />
       </list>
@@ -66,86 +75,87 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="GreedyAlgorithms" />
+      <recent name="DivideAndConquer" />
       <recent name="Tools" />
+      <recent name="GreedyAlgorithms" />
       <recent name="Fun" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TernaryHuffmanTest.exampleBuildTree">
-    <configuration name="PlanningStoreLocationsTest.twoForOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SortingAndCountingTest">
+    <configuration name="ClosestPairPfPointsTest.testSmall" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AD-Restart" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="GreedyAlgorithms.*" />
+          <option name="PATTERN" value="DivideAndConquer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="GreedyAlgorithms" />
-      <option name="MAIN_CLASS_NAME" value="GreedyAlgorithms.PlanningStoreLocationsTest" />
-      <option name="METHOD_NAME" value="twoForOne" />
+      <option name="PACKAGE_NAME" value="DivideAndConquer" />
+      <option name="MAIN_CLASS_NAME" value="DivideAndConquer.ClosestPairPfPointsTest" />
+      <option name="METHOD_NAME" value="testSmall" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TernaryHuffmanTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ClosestPairPfPointsTest.testTwoPoints" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AD-Restart" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="GreedyAlgorithms.*" />
+          <option name="PATTERN" value="DivideAndConquer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="GreedyAlgorithms" />
-      <option name="MAIN_CLASS_NAME" value="GreedyAlgorithms.TernaryHuffmanTest" />
+      <option name="PACKAGE_NAME" value="DivideAndConquer" />
+      <option name="MAIN_CLASS_NAME" value="DivideAndConquer.ClosestPairPfPointsTest" />
+      <option name="METHOD_NAME" value="testTwoPoints" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortingAndCountingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AD-Restart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DivideAndConquer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="DivideAndConquer" />
+      <option name="MAIN_CLASS_NAME" value="DivideAndConquer.SortingAndCountingTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TernaryHuffmanTest.exampleBuildTree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SortingAndCountingTest.countInversionsExample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AD-Restart" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="GreedyAlgorithms.*" />
+          <option name="PATTERN" value="DivideAndConquer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="GreedyAlgorithms" />
-      <option name="MAIN_CLASS_NAME" value="GreedyAlgorithms.TernaryHuffmanTest" />
-      <option name="METHOD_NAME" value="exampleBuildTree" />
+      <option name="PACKAGE_NAME" value="DivideAndConquer" />
+      <option name="MAIN_CLASS_NAME" value="DivideAndConquer.SortingAndCountingTest" />
+      <option name="METHOD_NAME" value="countInversionsExample" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TernaryHuffmanTest.exampleDecoding" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SortingAndCountingTest.countInversionsExample2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AD-Restart" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="GreedyAlgorithms.*" />
+          <option name="PATTERN" value="DivideAndConquer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="GreedyAlgorithms" />
-      <option name="MAIN_CLASS_NAME" value="GreedyAlgorithms.TernaryHuffmanTest" />
-      <option name="METHOD_NAME" value="exampleDecoding" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TernaryHuffmanTest.exampleEncoding2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AD-Restart" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="GreedyAlgorithms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="GreedyAlgorithms" />
-      <option name="MAIN_CLASS_NAME" value="GreedyAlgorithms.TernaryHuffmanTest" />
-      <option name="METHOD_NAME" value="exampleEncoding2" />
+      <option name="PACKAGE_NAME" value="DivideAndConquer" />
+      <option name="MAIN_CLASS_NAME" value="DivideAndConquer.SortingAndCountingTest" />
+      <option name="METHOD_NAME" value="countInversionsExample2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -153,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TernaryHuffmanTest.exampleBuildTree" />
-        <item itemvalue="JUnit.TernaryHuffmanTest.exampleEncoding2" />
-        <item itemvalue="JUnit.TernaryHuffmanTest.exampleDecoding" />
-        <item itemvalue="JUnit.TernaryHuffmanTest" />
-        <item itemvalue="JUnit.PlanningStoreLocationsTest.twoForOne" />
+        <item itemvalue="JUnit.SortingAndCountingTest" />
+        <item itemvalue="JUnit.SortingAndCountingTest.countInversionsExample2" />
+        <item itemvalue="JUnit.SortingAndCountingTest.countInversionsExample" />
+        <item itemvalue="JUnit.ClosestPairPfPointsTest.testSmall" />
+        <item itemvalue="JUnit.ClosestPairPfPointsTest.testTwoPoints" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +204,10 @@
       <workItem from="1669820432787" duration="4376000" />
       <workItem from="1669901150839" duration="5054000" />
       <workItem from="1670247928097" duration="6564000" />
-      <workItem from="1670411851434" duration="6217000" />
+      <workItem from="1670411851434" duration="7068000" />
+      <workItem from="1670505504911" duration="9424000" />
+      <workItem from="1670597452365" duration="789000" />
+      <workItem from="1670598248658" duration="6011000" />
     </task>
     <task id="LOCAL-00001" summary="setup project">
       <created>1655648193879</created>
@@ -224,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670262863885</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="wtf is this huffman">
+      <created>1670419394200</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1670419394200</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,7 +257,8 @@
     <MESSAGE value="progress" />
     <MESSAGE value="progress but still broken" />
     <MESSAGE value="works" />
-    <option name="LAST_COMMIT_MESSAGE" value="works" />
+    <MESSAGE value="wtf is this huffman" />
+    <option name="LAST_COMMIT_MESSAGE" value="wtf is this huffman" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -324,18 +345,43 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/GreedyAlgorithms/TernaryHuffman.java</url>
-          <line>202</line>
+          <line>216</line>
           <option name="timeStamp" value="47" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/GreedyAlgorithms/TernaryHuffman.java</url>
-          <line>95</line>
+          <line>104</line>
           <option name="timeStamp" value="48" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/GreedyAlgorithms/TernaryHuffman.java</url>
-          <line>164</line>
+          <line>173</line>
           <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/GreedyAlgorithms/TernaryHuffman.java</url>
+          <line>200</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DivideAndConquer/MergeSort.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/DivideAndConquer/MergeSortTest.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/DivideAndConquer/DepthFirstSearchTest.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DivideAndConquer/SortingAndCounting.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="60" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/GreedyAlgorithms/FindingTheMedian.java</url>
@@ -390,6 +436,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/DivideAndConquer/SortingAndCounting.java</url>
+          <line>60</line>
+          <properties class="DivideAndConquer.SortingAndCounting" method="merge">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="61" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
