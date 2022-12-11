@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a980e8bc-9ffc-4808-b53c-aa42b15ae7ef" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/DivideAndConquer/ClosestPairPfPoints.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DivideAndConquer/DepthFirstSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DivideAndConquer/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DivideAndConquer/SortingAndCounting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DivideAndConquer/ClosestPairPfPointsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DivideAndConquer/DepthFirstSearchTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DivideAndConquer/MergeSortTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DivideAndConquer/SortingAndCountingTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tools/MergeSortTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DivideAndConquer/FastBinaryExponentiation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DivideAndConquer/PartialSums.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DivideAndConquer/FastBinaryExponentiationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DivideAndConquer/PartialSumsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,13 +16,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CodeStyleSettingsInfer">
-    <option name="done" value="true" />
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="package-info" />
         <option value="Class" />
         <option value="JUnit5 Test Class" />
       </list>
@@ -45,44 +36,37 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectCodeStyleSettingsMigration">
-    <option name="version" value="2" />
-  </component>
   <component name="ProjectId" id="2AA2A9RDWtc1KYWJor0Pu3wZnjS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
-  }
-}</component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/DivideAndConquer" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="Debugger_Data_Views_Java" />
+  </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="DivideAndConquer" />
-      <recent name="Tools" />
-      <recent name="GreedyAlgorithms" />
       <recent name="Fun" />
+      <recent name="GreedyAlgorithms" />
+      <recent name="Tools" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SortingAndCountingTest">
-    <configuration name="ClosestPairPfPointsTest.testSmall" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.PartialSumsTest.testExampleB">
+    <configuration name="FastBinaryExponentiationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AD-Restart" />
       <extension name="coverage">
         <pattern>
@@ -91,45 +75,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="DivideAndConquer" />
-      <option name="MAIN_CLASS_NAME" value="DivideAndConquer.ClosestPairPfPointsTest" />
-      <option name="METHOD_NAME" value="testSmall" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ClosestPairPfPointsTest.testTwoPoints" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AD-Restart" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DivideAndConquer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="DivideAndConquer" />
-      <option name="MAIN_CLASS_NAME" value="DivideAndConquer.ClosestPairPfPointsTest" />
-      <option name="METHOD_NAME" value="testTwoPoints" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SortingAndCountingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AD-Restart" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DivideAndConquer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="DivideAndConquer" />
-      <option name="MAIN_CLASS_NAME" value="DivideAndConquer.SortingAndCountingTest" />
+      <option name="MAIN_CLASS_NAME" value="DivideAndConquer.FastBinaryExponentiationTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortingAndCountingTest.countInversionsExample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PartialSumsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AD-Restart" />
       <extension name="coverage">
         <pattern>
@@ -138,14 +90,29 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="DivideAndConquer" />
-      <option name="MAIN_CLASS_NAME" value="DivideAndConquer.SortingAndCountingTest" />
-      <option name="METHOD_NAME" value="countInversionsExample" />
+      <option name="MAIN_CLASS_NAME" value="DivideAndConquer.PartialSumsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PartialSumsTest.powerSets" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AD-Restart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DivideAndConquer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="DivideAndConquer" />
+      <option name="MAIN_CLASS_NAME" value="DivideAndConquer.PartialSumsTest" />
+      <option name="METHOD_NAME" value="powerSets" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortingAndCountingTest.countInversionsExample2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PartialSumsTest.testExampleA" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AD-Restart" />
       <extension name="coverage">
         <pattern>
@@ -154,20 +121,47 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="DivideAndConquer" />
-      <option name="MAIN_CLASS_NAME" value="DivideAndConquer.SortingAndCountingTest" />
-      <option name="METHOD_NAME" value="countInversionsExample2" />
+      <option name="MAIN_CLASS_NAME" value="DivideAndConquer.PartialSumsTest" />
+      <option name="METHOD_NAME" value="testExampleA" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PartialSumsTest.testExampleB" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AD-Restart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DivideAndConquer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="DivideAndConquer" />
+      <option name="MAIN_CLASS_NAME" value="DivideAndConquer.PartialSumsTest" />
+      <option name="METHOD_NAME" value="testExampleB" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SortingAndCountingTest" />
-        <item itemvalue="JUnit.SortingAndCountingTest.countInversionsExample2" />
-        <item itemvalue="JUnit.SortingAndCountingTest.countInversionsExample" />
-        <item itemvalue="JUnit.ClosestPairPfPointsTest.testSmall" />
-        <item itemvalue="JUnit.ClosestPairPfPointsTest.testTwoPoints" />
+        <item itemvalue="JUnit.PartialSumsTest.testExampleB" />
+        <item itemvalue="JUnit.PartialSumsTest.testExampleA" />
+        <item itemvalue="JUnit.PartialSumsTest.powerSets" />
+        <item itemvalue="JUnit.PartialSumsTest" />
+        <item itemvalue="JUnit.FastBinaryExponentiationTest" />
       </list>
     </recent_temporary>
   </component>
@@ -192,22 +186,6 @@
       <workItem from="1668360437261" duration="2180000" />
       <workItem from="1668463449988" duration="510000" />
       <workItem from="1668463982193" duration="1506000" />
-      <workItem from="1668693403606" duration="103000" />
-      <workItem from="1668693514070" duration="225000" />
-      <workItem from="1668693747836" duration="2225000" />
-      <workItem from="1668696040397" duration="349000" />
-      <workItem from="1668782772977" duration="11009000" />
-      <workItem from="1668878250484" duration="1507000" />
-      <workItem from="1668960531304" duration="4329000" />
-      <workItem from="1669398979227" duration="2496000" />
-      <workItem from="1669809709726" duration="6073000" />
-      <workItem from="1669820432787" duration="4376000" />
-      <workItem from="1669901150839" duration="5054000" />
-      <workItem from="1670247928097" duration="6564000" />
-      <workItem from="1670411851434" duration="7068000" />
-      <workItem from="1670505504911" duration="9424000" />
-      <workItem from="1670597452365" duration="789000" />
-      <workItem from="1670598248658" duration="6011000" />
     </task>
     <task id="LOCAL-00001" summary="setup project">
       <created>1655648193879</created>
@@ -216,49 +194,15 @@
       <option name="project" value="LOCAL" />
       <updated>1655648193879</updated>
     </task>
-    <task id="LOCAL-00002" summary="progress">
-      <created>1668879137959</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1668879137959</updated>
-    </task>
-    <task id="LOCAL-00003" summary="progress but still broken">
-      <created>1669824799871</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1669824799871</updated>
-    </task>
-    <task id="LOCAL-00004" summary="works">
-      <created>1670262863885</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1670262863885</updated>
-    </task>
-    <task id="LOCAL-00005" summary="wtf is this huffman">
-      <created>1670419394200</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1670419394200</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="setup project" />
-    <MESSAGE value="progress" />
-    <MESSAGE value="progress but still broken" />
-    <MESSAGE value="works" />
-    <MESSAGE value="wtf is this huffman" />
-    <option name="LAST_COMMIT_MESSAGE" value="wtf is this huffman" />
+    <option name="LAST_COMMIT_MESSAGE" value="setup project" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -309,79 +253,14 @@
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Fun/QuickSortButNotReally.java</url>
-          <line>56</line>
-          <option name="timeStamp" value="27" />
+          <url>file://$PROJECT_DIR$/src/main/java/DivideAndConquer/PartialSums.java</url>
+          <line>80</line>
+          <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/GreedyAlgorithms/PlanningBikeRepairs.java</url>
-          <line>46</line>
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/GreedyAlgorithms/PlanningBikeRepairs.java</url>
-          <line>55</line>
-          <option name="timeStamp" value="33" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/GreedyAlgorithms/ParallelProcessing.java</url>
-          <line>47</line>
-          <option name="timeStamp" value="35" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Tools/UnionFind.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="39" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/Tools/UnionFindTest.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="40" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/GreedyAlgorithms/AssigningWorkstations.java</url>
-          <line>73</line>
-          <option name="timeStamp" value="43" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/GreedyAlgorithms/TernaryHuffman.java</url>
-          <line>216</line>
-          <option name="timeStamp" value="47" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/GreedyAlgorithms/TernaryHuffman.java</url>
-          <line>104</line>
-          <option name="timeStamp" value="48" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/GreedyAlgorithms/TernaryHuffman.java</url>
-          <line>173</line>
-          <option name="timeStamp" value="51" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/GreedyAlgorithms/TernaryHuffman.java</url>
-          <line>200</line>
-          <option name="timeStamp" value="53" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/DivideAndConquer/MergeSort.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="54" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/DivideAndConquer/MergeSortTest.java</url>
-          <line>41</line>
-          <option name="timeStamp" value="56" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/DivideAndConquer/DepthFirstSearchTest.java</url>
-          <line>73</line>
-          <option name="timeStamp" value="58" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/DivideAndConquer/SortingAndCounting.java</url>
-          <line>35</line>
-          <option name="timeStamp" value="60" />
+          <url>file://$PROJECT_DIR$/src/main/java/DivideAndConquer/PartialSums.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="38" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/GreedyAlgorithms/FindingTheMedian.java</url>
@@ -402,49 +281,22 @@
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/Fun/QuickSortButNotReally.java</url>
-          <line>39</line>
-          <properties class="Fun.QuickSortButNotReally" method="main">
+          <url>file://$PROJECT_DIR$/src/main/java/DivideAndConquer/PartialSums.java</url>
+          <line>13</line>
+          <properties class="DivideAndConquer.PartialSums" method="partialSums">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
-          <option name="timeStamp" value="28" />
+          <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/GreedyAlgorithms/PlanningBikeRepairs.java</url>
-          <line>33</line>
-          <properties class="GreedyAlgorithms.PlanningBikeRepairs" method="fixMyBikesPlease">
+          <url>file://$PROJECT_DIR$/src/main/java/DivideAndConquer/PartialSums.java</url>
+          <line>20</line>
+          <properties class="DivideAndConquer.PartialSums" method="partialSums">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
-          <option name="timeStamp" value="34" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/Tools/UnionFind.java</url>
-          <line>9</line>
-          <properties class="Tools.UnionFind" method="MakeSet">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="36" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/GreedyAlgorithms/AssigningWorkstationsTest.java</url>
-          <line>12</line>
-          <properties class="GreedyAlgorithms.AssigningWorkstationsTest" method="example">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="46" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/DivideAndConquer/SortingAndCounting.java</url>
-          <line>60</line>
-          <properties class="DivideAndConquer.SortingAndCounting" method="merge">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="61" />
+          <option name="timeStamp" value="40" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -453,16 +305,7 @@
         <watch expression="l" />
         <watch expression="r" />
         <watch expression="list" />
-        <watch expression="jobs.toString()" language="JAVA" />
       </configuration>
     </watches-manager>
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/AD_Restart$AssigningWorkstationsTest_example.ic" NAME="AssigningWorkstationsTest.example Coverage Results" MODIFIED="1669823529027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>GreedyAlgorithms.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/AD_Restart$ParallelProcessingTest.ic" NAME="ParallelProcessingTest Coverage Results" MODIFIED="1668797787076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>GreedyAlgorithms.*</FILTER>
-    </SUITE>
   </component>
 </project>
