@@ -28,9 +28,13 @@ class PartialSumsTest {
         System.out.println(Arrays.toString(part1));
         System.out.println(Arrays.toString(part2));
 
+        System.out.println("==================================");
+
         System.out.println(createPowerSet(test));
         System.out.println(createPowerSet(part1));
         System.out.println(createPowerSet(part2));
+
+        System.out.println("==================================");
 
         System.out.println(partialSumsBruteForce(test));
         System.out.println(partialSumsBruteForce(part1));

@@ -15,12 +15,14 @@ public class PartialSums {
         if (arr.length == 0) {
             return new HashSet<>(Collections.singletonList(0));
         }
-        return partialSums(arr, 0, arr.length - 1);
+        var res =  partialSums(arr, 0, arr.length - 1);
+        res.add(0);
+        return res;
     }
 
     public static Set<Integer> partialSums(Integer[] arr, int low, int high) {
         if (low == high) {
-            return new HashSet<>(Arrays.asList(arr[low], 0));
+            return new HashSet<>(Arrays.asList(arr[low]));
         }
         int mid = (low + high) / 2;
         Set<Integer> leftSums = partialSums(arr, low, mid);
