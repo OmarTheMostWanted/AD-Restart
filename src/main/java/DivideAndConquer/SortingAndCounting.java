@@ -83,6 +83,7 @@ public class SortingAndCounting {
             counter++;
             l++;
 //            inversions++;
+
         }
 
         while (r < right.length) {

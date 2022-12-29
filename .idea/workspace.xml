@@ -5,27 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a980e8bc-9ffc-4808-b53c-aa42b15ae7ef" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/DivideAndConquer/CountingOnes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DivideAndConquer/FindMinimum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DivideAndConquer/LargestConsecutiveSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DivideAndConquer/LongestPrefix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exam19/HowManyOnes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exam19/Huffman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exam19/PresentationTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exam2021/MorePrefixMagic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exam2021/TaskMaster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exam2021/TernaryHuffman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/exam19/HowManyOnesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/exam19/HuffmanTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/exam2021/TaskMasterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/exam2021/TernaryHuffmanTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DivideAndConquer/CountingOnesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DivideAndConquer/FindMinimumTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DivideAndConquer/LargestConsecutiveSumTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DivideAndConquer/LongestPrefixTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DynamicProgramming/AnOldFavourite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DynamicProgramming/AnOldFavouriteTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DivideAndConquer/PartialSums.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DivideAndConquer/PartialSums.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DivideAndConquer/PartialSumsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DivideAndConquer/PartialSumsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DivideAndConquer/SortingAndCounting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DivideAndConquer/SortingAndCounting.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,8 +19,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -67,7 +50,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/exam2021" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -78,24 +61,24 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="DynamicProgramming" />
       <recent name="exam2021" />
       <recent name="exam19" />
       <recent name="DivideAndConquer" />
       <recent name="Fun" />
-      <recent name="GreedyAlgorithms" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TernaryHuffmanTest.exampleBuildTree">
-    <configuration name="HuffmanTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.AnOldFavouriteTest">
+    <configuration name="AnOldFavouriteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AD-Restart" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exam19.*" />
+          <option name="PATTERN" value="DynamicProgramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="exam19" />
-      <option name="MAIN_CLASS_NAME" value="exam19.HuffmanTest" />
+      <option name="PACKAGE_NAME" value="DynamicProgramming" />
+      <option name="MAIN_CLASS_NAME" value="DynamicProgramming.AnOldFavouriteTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -178,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AnOldFavouriteTest" />
         <item itemvalue="JUnit.TernaryHuffmanTest.exampleBuildTree" />
         <item itemvalue="JUnit.TernaryHuffmanTest.exampleDecoding" />
         <item itemvalue="JUnit.TernaryHuffmanTest.exampleEncoding2" />
         <item itemvalue="JUnit.TaskMasterTest.example" />
-        <item itemvalue="JUnit.HuffmanTest" />
       </list>
     </recent_temporary>
   </component>
@@ -210,6 +193,7 @@
       <workItem from="1670779456278" duration="14999000" />
       <workItem from="1670861821451" duration="7951000" />
       <workItem from="1670945584454" duration="5152000" />
+      <workItem from="1672348598482" duration="1681000" />
     </task>
     <task id="LOCAL-00001" summary="setup project">
       <created>1655648193879</created>
