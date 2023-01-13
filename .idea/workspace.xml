@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a980e8bc-9ffc-4808-b53c-aa42b15ae7ef" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Tools/UnFolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DynamicProgramming/ChoosingBetweenWork.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +66,7 @@
       <recent name="Fun" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AnOldFavouriteTest">
+  <component name="RunManager" selected="JUnit.ChoosingBetweenWorkTest">
     <configuration name="AnOldFavouriteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AD-Restart" />
       <extension name="coverage">
@@ -82,18 +82,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TaskMasterTest.example" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ChoosingBetweenWorkTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AD-Restart" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exam2021.*" />
+          <option name="PATTERN" value="DynamicProgramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="exam2021" />
-      <option name="MAIN_CLASS_NAME" value="exam2021.TaskMasterTest" />
-      <option name="METHOD_NAME" value="example" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="DynamicProgramming" />
+      <option name="MAIN_CLASS_NAME" value="DynamicProgramming.ChoosingBetweenWorkTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -159,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ChoosingBetweenWorkTest" />
         <item itemvalue="JUnit.AnOldFavouriteTest" />
         <item itemvalue="JUnit.TernaryHuffmanTest.exampleBuildTree" />
         <item itemvalue="JUnit.TernaryHuffmanTest.exampleDecoding" />
         <item itemvalue="JUnit.TernaryHuffmanTest.exampleEncoding2" />
-        <item itemvalue="JUnit.TaskMasterTest.example" />
       </list>
     </recent_temporary>
   </component>
@@ -193,6 +192,8 @@
       <workItem from="1670945584454" duration="5152000" />
       <workItem from="1672348598482" duration="2876000" />
       <workItem from="1673376333767" duration="4271000" />
+      <workItem from="1673532626638" duration="30000" />
+      <workItem from="1673568199657" duration="1048000" />
     </task>
     <task id="LOCAL-00001" summary="setup project">
       <created>1655648193879</created>
@@ -215,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672351279274</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="dynamic programming">
+      <created>1673532646391</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1673532646391</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
