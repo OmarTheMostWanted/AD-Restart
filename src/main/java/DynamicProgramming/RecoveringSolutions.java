@@ -8,8 +8,17 @@ public class RecoveringSolutions {
         var list = new LinkedList<Integer>();
         int counter = n;
 
-        while (counter > 0){
-            if(nodes[counter] + mem[])
+        while (counter > 0) {
+            if (mem[counter] == nodes[counter] + mem[counter - 1]) {
+                list.addFirst(counter);
+                counter = counter - 1;
+            } else if (mem[counter] == nodes[counter] + mem[counter - 2]) {
+                list.addFirst(counter);
+                counter = counter - 2;
+            } else if (mem[counter] == nodes[counter] + mem[counter - 3]) {
+                list.addFirst(counter);
+                counter = counter - 3;
+            } else counter--;
         }
 
         return list;
