@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a980e8bc-9ffc-4808-b53c-aa42b15ae7ef" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/DynamicProgramming/BitcoinsAndEuros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DynamicProgramming/BitcoinsAndEurosTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DynamicProgramming/RecoveringSolutionsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DynamicProgramming/Knapsack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DynamicProgramming/KnapsackRetrieval.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DynamicProgramming/KnapsackRetrievalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DynamicProgramming/KnapsackTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DynamicProgramming/RecoveringSolutions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DynamicProgramming/RecoveringSolutions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,22 +78,7 @@
       <recent name="Fun" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BitcoinsAndEurosTest">
-    <configuration name="AnOldFavouriteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AD-Restart" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DynamicProgramming.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="DynamicProgramming" />
-      <option name="MAIN_CLASS_NAME" value="DynamicProgramming.AnOldFavouriteTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.KnapsackRetrievalTest">
     <configuration name="BitcoinsAndEurosTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AD-Restart" />
       <extension name="coverage">
@@ -109,7 +94,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChoosingBetweenWorkTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="KnapsackRetrievalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AD-Restart" />
       <extension name="coverage">
         <pattern>
@@ -118,13 +103,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="DynamicProgramming" />
-      <option name="MAIN_CLASS_NAME" value="DynamicProgramming.ChoosingBetweenWorkTest" />
+      <option name="MAIN_CLASS_NAME" value="DynamicProgramming.KnapsackRetrievalTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RecoveringSolutionsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="KnapsackTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AD-Restart" />
       <extension name="coverage">
         <pattern>
@@ -133,23 +118,39 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="DynamicProgramming" />
-      <option name="MAIN_CLASS_NAME" value="DynamicProgramming.RecoveringSolutionsTest" />
+      <option name="MAIN_CLASS_NAME" value="DynamicProgramming.KnapsackTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TernaryHuffmanTest.exampleBuildTree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="KnapsackTest.example1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AD-Restart" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exam2021.*" />
+          <option name="PATTERN" value="DynamicProgramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="exam2021" />
-      <option name="MAIN_CLASS_NAME" value="exam2021.TernaryHuffmanTest" />
-      <option name="METHOD_NAME" value="exampleBuildTree" />
+      <option name="PACKAGE_NAME" value="DynamicProgramming" />
+      <option name="MAIN_CLASS_NAME" value="DynamicProgramming.KnapsackTest" />
+      <option name="METHOD_NAME" value="example1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KnapsackTest.example2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AD-Restart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DynamicProgramming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="DynamicProgramming" />
+      <option name="MAIN_CLASS_NAME" value="DynamicProgramming.KnapsackTest" />
+      <option name="METHOD_NAME" value="example2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -168,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.KnapsackRetrievalTest" />
+        <item itemvalue="JUnit.KnapsackTest.example2" />
+        <item itemvalue="JUnit.KnapsackTest.example1" />
+        <item itemvalue="JUnit.KnapsackTest" />
         <item itemvalue="JUnit.BitcoinsAndEurosTest" />
-        <item itemvalue="JUnit.RecoveringSolutionsTest" />
-        <item itemvalue="JUnit.ChoosingBetweenWorkTest" />
-        <item itemvalue="JUnit.AnOldFavouriteTest" />
-        <item itemvalue="JUnit.TernaryHuffmanTest.exampleBuildTree" />
       </list>
     </recent_temporary>
   </component>
@@ -205,6 +206,7 @@
       <workItem from="1673532626638" duration="30000" />
       <workItem from="1673568199657" duration="1048000" />
       <workItem from="1673732321407" duration="1287000" />
+      <workItem from="1674333185356" duration="3064000" />
     </task>
     <task id="LOCAL-00001" summary="setup project">
       <created>1655648193879</created>
@@ -353,6 +355,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/DynamicProgramming/BitcoinsAndEuros.java</url>
           <line>19</line>
           <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DynamicProgramming/Knapsack.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="79" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/GreedyAlgorithms/FindingTheMedian.java</url>
