@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a980e8bc-9ffc-4808-b53c-aa42b15ae7ef" name="Changes" comment="Knapsack problems">
-      <change afterPath="$PROJECT_DIR$/src/main/java/DynamicProgramming/SequenceAlignment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DynamicProgramming/SequenceAlignmentTest.java" afterDir="false" />
+    <list default="true" id="a980e8bc-9ffc-4808-b53c-aa42b15ae7ef" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DynamicProgramming/SequenceAlignment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DynamicProgramming/SequenceAlignment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DynamicProgramming/SequenceAlignmentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DynamicProgramming/SequenceAlignmentTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,9 +182,9 @@
       <list>
         <item itemvalue="JUnit.SequenceAlignmentTest" />
         <item itemvalue="JUnit.SequenceAlignmentTest.longTest" />
-        <item itemvalue="JUnit.SequenceAlignmentTest.example" />
         <item itemvalue="JUnit.SequenceAlignmentTest.example1" />
         <item itemvalue="JUnit.SequenceAlignmentTest.two" />
+        <item itemvalue="JUnit.SequenceAlignmentTest.example" />
       </list>
     </recent_temporary>
   </component>
@@ -219,7 +219,8 @@
       <workItem from="1673732321407" duration="1287000" />
       <workItem from="1674333185356" duration="4042000" />
       <workItem from="1674495294670" duration="2000" />
-      <workItem from="1674526615106" duration="2133000" />
+      <workItem from="1674526615106" duration="2258000" />
+      <workItem from="1674669127617" duration="7312000" />
     </task>
     <task id="LOCAL-00001" summary="setup project">
       <created>1655648193879</created>
@@ -263,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674356425573</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="matching thing">
+      <created>1674528879133</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1674528879133</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -275,7 +283,8 @@
     <MESSAGE value="dynamic programming" />
     <MESSAGE value="Knapsack problems" />
     <MESSAGE value="git ignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="git ignore" />
+    <MESSAGE value="matching thing" />
+    <option name="LAST_COMMIT_MESSAGE" value="matching thing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -392,8 +401,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/DynamicProgramming/SequenceAlignment.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="82" />
+          <line>16</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/DynamicProgramming/SequenceAlignmentTest.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DynamicProgramming/SequenceAlignment.java</url>
+          <line>143</line>
+          <option name="timeStamp" value="90" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/GreedyAlgorithms/FindingTheMedian.java</url>
