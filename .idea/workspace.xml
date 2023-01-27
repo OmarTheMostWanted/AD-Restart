@@ -87,7 +87,7 @@
       <recent name="Fun" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SequenceAlignmentTest">
+  <component name="RunManager" selected="JUnit.SequenceAlignmentTest.qwertySE2">
     <configuration name="SequenceAlignmentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AD-Restart" />
       <extension name="coverage">
@@ -103,7 +103,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SequenceAlignmentTest.example" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SequenceAlignmentTest.exampleSE" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AD-Restart" />
       <extension name="coverage">
         <pattern>
@@ -113,13 +113,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="DynamicProgramming" />
       <option name="MAIN_CLASS_NAME" value="DynamicProgramming.SequenceAlignmentTest" />
-      <option name="METHOD_NAME" value="example" />
+      <option name="METHOD_NAME" value="exampleSE" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SequenceAlignmentTest.example1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SequenceAlignmentTest.longTestSE" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AD-Restart" />
       <extension name="coverage">
         <pattern>
@@ -129,13 +129,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="DynamicProgramming" />
       <option name="MAIN_CLASS_NAME" value="DynamicProgramming.SequenceAlignmentTest" />
-      <option name="METHOD_NAME" value="example1" />
+      <option name="METHOD_NAME" value="longTestSE" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SequenceAlignmentTest.longTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SequenceAlignmentTest.longTestSE2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AD-Restart" />
       <extension name="coverage">
         <pattern>
@@ -145,13 +145,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="DynamicProgramming" />
       <option name="MAIN_CLASS_NAME" value="DynamicProgramming.SequenceAlignmentTest" />
-      <option name="METHOD_NAME" value="longTest" />
+      <option name="METHOD_NAME" value="longTestSE2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SequenceAlignmentTest.two" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SequenceAlignmentTest.qwertySE2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AD-Restart" />
       <extension name="coverage">
         <pattern>
@@ -161,7 +161,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="DynamicProgramming" />
       <option name="MAIN_CLASS_NAME" value="DynamicProgramming.SequenceAlignmentTest" />
-      <option name="METHOD_NAME" value="two" />
+      <option name="METHOD_NAME" value="qwertySE2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -180,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SequenceAlignmentTest.qwertySE2" />
+        <item itemvalue="JUnit.SequenceAlignmentTest.longTestSE2" />
         <item itemvalue="JUnit.SequenceAlignmentTest" />
-        <item itemvalue="JUnit.SequenceAlignmentTest.longTest" />
-        <item itemvalue="JUnit.SequenceAlignmentTest.example1" />
-        <item itemvalue="JUnit.SequenceAlignmentTest.two" />
-        <item itemvalue="JUnit.SequenceAlignmentTest.example" />
+        <item itemvalue="JUnit.SequenceAlignmentTest.longTestSE" />
+        <item itemvalue="JUnit.SequenceAlignmentTest.exampleSE" />
       </list>
     </recent_temporary>
   </component>
@@ -220,7 +220,8 @@
       <workItem from="1674333185356" duration="4042000" />
       <workItem from="1674495294670" duration="2000" />
       <workItem from="1674526615106" duration="2258000" />
-      <workItem from="1674669127617" duration="7312000" />
+      <workItem from="1674669127617" duration="7450000" />
+      <workItem from="1674755635065" duration="5714000" />
     </task>
     <task id="LOCAL-00001" summary="setup project">
       <created>1655648193879</created>
@@ -271,7 +272,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674528879133</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="progress">
+      <created>1674703932425</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1674703932425</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,7 +292,8 @@
     <MESSAGE value="Knapsack problems" />
     <MESSAGE value="git ignore" />
     <MESSAGE value="matching thing" />
-    <option name="LAST_COMMIT_MESSAGE" value="matching thing" />
+    <MESSAGE value="progress" />
+    <option name="LAST_COMMIT_MESSAGE" value="progress" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -401,18 +410,28 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/DynamicProgramming/SequenceAlignment.java</url>
-          <line>16</line>
+          <line>17</line>
           <option name="timeStamp" value="84" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/DynamicProgramming/SequenceAlignmentTest.java</url>
-          <line>47</line>
+          <line>44</line>
           <option name="timeStamp" value="85" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/DynamicProgramming/SequenceAlignment.java</url>
-          <line>143</line>
-          <option name="timeStamp" value="90" />
+          <line>38</line>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DynamicProgramming/SequenceAlignment.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DynamicProgramming/SequenceAlignment.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="93" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/GreedyAlgorithms/FindingTheMedian.java</url>

@@ -1,5 +1,6 @@
 package DynamicProgramming;
 
+import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -32,6 +33,64 @@ public class SequenceAlignment {
             }
         }
         return mem[firstString.length()][secondString.length()];
+    }
+
+    public static int solveSpaceEfficient(String firstString, String secondString) {
+        if (firstString.length() == 0) return secondString.length();
+        if (secondString.length() == 0) return firstString.length();
+        int[] mem = new int[secondString.length() + 1];
+
+        for (int i = 0; i < mem.length; i++) {
+            mem[i] = i;
+        }
+
+        int[] next = new int[secondString.length()+1];
+
+        for (int i = 1; i <= firstString.length(); i++) {
+
+            var left = i;
+
+            for (int k = 1; k <= secondString.length(); k++) {
+
+                var first = firstString.charAt(i - 1);
+                var second = secondString.charAt(k - 1);
+
+                var matching = (first == second ? 0 : 1) + mem[k - 1];
+                var skippingLeft = 1 + mem[k];
+                var skippingRight = 1 + left;
+                left = Integer.min(matching, Integer.min(skippingLeft, skippingRight));
+//                left = mem[k];
+                next[k] = left;
+            }
+            mem = Arrays.copyOf(next  , mem.length);
+        }
+        return mem[secondString.length()];
+    }
+
+    public static int solveSpaceEfficient2(String firstString, String secondString) {
+        if (firstString.length() == 0) return secondString.length();
+        if (secondString.length() == 0) return firstString.length();
+        int[] mem = new int[firstString.length() + 1];
+
+        for (int i = 0; i < mem.length; i++) {
+            mem[i] = i;
+        }
+
+        for (int j = 1; j <= secondString.length(); j++) {
+
+            var left = j-1;
+
+            for (int i = 1; i <= firstString.length(); i++) {
+                var ib = left;
+                left = mem[i];
+
+                var matching = (secondString.charAt(j-1) == firstString.charAt(i-1) ? 0 : 1) + ib;
+                var skippingLeft = 1 + mem[i-1];
+                var skippingRight = 1 + left;
+                mem[i]  = Integer.min(matching, Integer.min(skippingLeft, skippingRight));
+            }
+        }
+        return mem[firstString.length()];
     }
 
     public static int[][] createMemory(String firstString, String secondString) {
