@@ -1,5 +1,6 @@
 package DynamicProgramming;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -42,15 +43,26 @@ public class TheFishSalesman {
 
     private static List<Character> GetSolution(int[][] mem, int n, int[] P, int[] Q) {
         var list = new LinkedList<Character>();
-//        if (mem[0][n] > mem[1][n]) list.addFirst('P');
-//        else list.addFirst('Q');
-//        while (n > 1) {
-//            if (mem[0][n] > mem[1][n] && list.getFirst() == 'P') list.addFirst('P');
-//            else if (mem[0][n] > mem[1][n] && list.getFirst() == 'Q') list.addFirst('-');
-//            if (mem[0][n] < mem[1][n] && list.getFirst() == 'Q') list.addFirst('Q');
-//            else if (mem[0][n] < mem[1][n] && list.getFirst() == 'P') list.addFirst('-');
-//            n--;
-//        }
+
+        boolean pathInP =mem[0][n] > mem[1][n];
+
+
+        ArrayList<Integer> switches = new ArrayList<>();
+
+        while (n > 0)   {
+
+        if(mem[pathInP ? 0 : 1][n] == mem[pathInP ? 0 : 1][n-1] + (pathInP ? P[n] : Q[n])){
+            list.addFirst( pathInP ? 'P' : 'Q' );
+        }
+
+        else {
+            pathInP = !pathInP;
+            list.addFirst('-');
+        }
+
+        n--;
+
+        }
 
         return list;
     }

@@ -18,7 +18,7 @@ class TheFishSalesmanTest {
         int[] P = {0, 80, 30, 30, 70, 80};
         int[] Q = {0, 90, 60, 60, 50, 20};
         Assertions.assertEquals(300, TheFishSalesman.solve(n, P, Q));
-        Assertions.assertEquals(List.of(new char[]{'Q', 'Q', '-', 'P', 'P'}), TheFishSalesman.GetSolution(n, P, Q));
+        Assertions.assertEquals(Arrays.asList('Q', 'Q', '-', 'P', 'P'), TheFishSalesman.GetSolution(n, P, Q));
     }
 
     @Test
