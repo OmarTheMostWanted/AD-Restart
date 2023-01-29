@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a980e8bc-9ffc-4808-b53c-aa42b15ae7ef" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/DynamicProgramming/TheFishSalesman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DynamicProgramming/TheQuestForTheHolyGrail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DynamicProgramming/TheFishSalesmanTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DynamicProgramming/TheQuestForTheHolyGrailTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DynamicProgramming/SequenceAlignment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DynamicProgramming/SequenceAlignment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DynamicProgramming/SequenceAlignmentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DynamicProgramming/SequenceAlignmentTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,8 +89,8 @@
       <recent name="Fun" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SequenceAlignmentTest.qwertySE2">
-    <configuration name="SequenceAlignmentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TheFishSalesmanTest.example">
+    <configuration name="TheFishSalesmanTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AD-Restart" />
       <extension name="coverage">
         <pattern>
@@ -97,13 +99,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="DynamicProgramming" />
-      <option name="MAIN_CLASS_NAME" value="DynamicProgramming.SequenceAlignmentTest" />
+      <option name="MAIN_CLASS_NAME" value="DynamicProgramming.TheFishSalesmanTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SequenceAlignmentTest.exampleSE" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TheFishSalesmanTest.example" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AD-Restart" />
       <extension name="coverage">
         <pattern>
@@ -112,14 +114,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="DynamicProgramming" />
-      <option name="MAIN_CLASS_NAME" value="DynamicProgramming.SequenceAlignmentTest" />
-      <option name="METHOD_NAME" value="exampleSE" />
+      <option name="MAIN_CLASS_NAME" value="DynamicProgramming.TheFishSalesmanTest" />
+      <option name="METHOD_NAME" value="example" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SequenceAlignmentTest.longTestSE" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TheFishSalesmanTest.example1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AD-Restart" />
       <extension name="coverage">
         <pattern>
@@ -128,14 +130,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="DynamicProgramming" />
-      <option name="MAIN_CLASS_NAME" value="DynamicProgramming.SequenceAlignmentTest" />
-      <option name="METHOD_NAME" value="longTestSE" />
+      <option name="MAIN_CLASS_NAME" value="DynamicProgramming.TheFishSalesmanTest" />
+      <option name="METHOD_NAME" value="example1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SequenceAlignmentTest.longTestSE2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TheQuestForTheHolyGrailTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AD-Restart" />
       <extension name="coverage">
         <pattern>
@@ -144,14 +146,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="DynamicProgramming" />
-      <option name="MAIN_CLASS_NAME" value="DynamicProgramming.SequenceAlignmentTest" />
-      <option name="METHOD_NAME" value="longTestSE2" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="DynamicProgramming.TheQuestForTheHolyGrailTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SequenceAlignmentTest.qwertySE2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TheQuestForTheHolyGrailTest.example_dijkstra_wouldnt_work" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AD-Restart" />
       <extension name="coverage">
         <pattern>
@@ -160,8 +161,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="DynamicProgramming" />
-      <option name="MAIN_CLASS_NAME" value="DynamicProgramming.SequenceAlignmentTest" />
-      <option name="METHOD_NAME" value="qwertySE2" />
+      <option name="MAIN_CLASS_NAME" value="DynamicProgramming.TheQuestForTheHolyGrailTest" />
+      <option name="METHOD_NAME" value="example_dijkstra_wouldnt_work" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -180,11 +181,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SequenceAlignmentTest.qwertySE2" />
-        <item itemvalue="JUnit.SequenceAlignmentTest.longTestSE2" />
-        <item itemvalue="JUnit.SequenceAlignmentTest" />
-        <item itemvalue="JUnit.SequenceAlignmentTest.longTestSE" />
-        <item itemvalue="JUnit.SequenceAlignmentTest.exampleSE" />
+        <item itemvalue="JUnit.TheFishSalesmanTest.example" />
+        <item itemvalue="JUnit.TheFishSalesmanTest.example1" />
+        <item itemvalue="JUnit.TheFishSalesmanTest" />
+        <item itemvalue="JUnit.TheQuestForTheHolyGrailTest.example_dijkstra_wouldnt_work" />
+        <item itemvalue="JUnit.TheQuestForTheHolyGrailTest" />
       </list>
     </recent_temporary>
   </component>
@@ -221,7 +222,10 @@
       <workItem from="1674495294670" duration="2000" />
       <workItem from="1674526615106" duration="2258000" />
       <workItem from="1674669127617" duration="7450000" />
-      <workItem from="1674755635065" duration="5714000" />
+      <workItem from="1674755635065" duration="5748000" />
+      <workItem from="1674826330141" duration="1835000" />
+      <workItem from="1674871920261" duration="9426000" />
+      <workItem from="1674935494671" duration="11687000" />
     </task>
     <task id="LOCAL-00001" summary="setup project">
       <created>1655648193879</created>
@@ -279,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674703932425</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="progress">
+      <created>1674794495087</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1674794495087</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -432,6 +443,46 @@
           <url>file://$PROJECT_DIR$/src/main/java/DynamicProgramming/SequenceAlignment.java</url>
           <line>78</line>
           <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DynamicProgramming/TheQuestForTheHolyGrail.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DynamicProgramming/TheQuestForTheHolyGrail.java</url>
+          <line>87</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DynamicProgramming/TheQuestForTheHolyGrail.java</url>
+          <line>110</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DynamicProgramming/TheQuestForTheHolyGrail.java</url>
+          <line>127</line>
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DynamicProgramming/TheQuestForTheHolyGrail.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DynamicProgramming/TheQuestForTheHolyGrail.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DynamicProgramming/TheFishSalesman.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DynamicProgramming/TheFishSalesman.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="104" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/GreedyAlgorithms/FindingTheMedian.java</url>
