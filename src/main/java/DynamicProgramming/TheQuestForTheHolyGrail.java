@@ -34,12 +34,7 @@ public class TheQuestForTheHolyGrail {
                     if (e.to.getId() == i) {
                         minEdges[0] = Math.min(minEdges[0], e.cost + mem[e.from.getId()][0]);
                         for (int j = 1; j <= k; j++) {
-                            minEdges[j] =
-                                    Math.min(
-                                            minEdges[j],
-                                            Math.min(
-                                                    mem[e.from.getId()][j - 1] + e.cost * 0.5,
-                                                    mem[e.from.getId()][j] + e.cost));
+                            minEdges[j] = Math.min(minEdges[j], Math.min(mem[e.from.getId()][j - 1] + e.cost * 0.5, mem[e.from.getId()][j] + e.cost));
                         }
                     }
                 }
@@ -55,7 +50,7 @@ public class TheQuestForTheHolyGrail {
     }
 
 
-        public static double solveDijkstra(int n, int m, int k, int g, Node[] V, Set<Edge> E) {
+    public static double solveDijkstra(int n, int m, int k, int g, Node[] V, Set<Edge> E) {
 
         HashMap<Node, Set<Edge>> outGoingEdges = new HashMap<>();
 
