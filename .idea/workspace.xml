@@ -4,17 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a980e8bc-9ffc-4808-b53c-aa42b15ae7ef" name="Changes" comment="progress">
-      <change afterPath="$PROJECT_DIR$/src/main/java/NetWorkFlow/BipartiteMatching.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/NetWorkFlow/HospitalAssignment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/NetWorkFlow/MaxFlow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/NetWorkFlow/UsingWhatYouGet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/NetWorkFlow/ZoombiesMeeting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/NetWorkFlow/BipartiteMatchingTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/NetWorkFlow/MaxFlowTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/NetWorkFlow/UsingWhatYouGetTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/NetWorkFlow/ZoombiesMeetingTest.java" afterDir="false" />
+    <list default="true" id="a980e8bc-9ffc-4808-b53c-aa42b15ae7ef" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/NetWorkFlow/Baseball.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/NetWorkFlow/CemelClub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/NetWorkFlow/ImageSegmentation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/NetWorkFlow/ProjectSelection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/NetWorkFlow/BaseballTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/NetWorkFlow/CemelClubTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/NetWorkFlow/ImageSegmentationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/NetWorkFlow/ProjectSelectionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/NetWorkFlow/SweetsProof.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/NetWorkFlow/SweetsProofTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/NetWorkFlow/BipartiteMatchingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/NetWorkFlow/BipartiteMatchingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/NetWorkFlow/MaxFlowTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/NetWorkFlow/MaxFlowTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/NetWorkFlow/UsingWhatYouGetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/NetWorkFlow/UsingWhatYouGetTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/NetWorkFlow/ZoombiesMeetingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/NetWorkFlow/ZoombiesMeetingTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +30,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -73,9 +78,10 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="JAVA" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/NetWorkFlow" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/NetWorkFlow" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -94,8 +100,8 @@
       <recent name="DivideAndConquer" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BipartiteMatchingTest">
-    <configuration name="BipartiteMatchingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.BaseballTest">
+    <configuration name="BaseballTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AD-Restart" />
       <extension name="coverage">
         <pattern>
@@ -104,13 +110,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="NetWorkFlow" />
-      <option name="MAIN_CLASS_NAME" value="NetWorkFlow.BipartiteMatchingTest" />
+      <option name="MAIN_CLASS_NAME" value="NetWorkFlow.BaseballTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BipartiteMatchingTest.exampleThreeMatches2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CemelClubTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AD-Restart" />
       <extension name="coverage">
         <pattern>
@@ -119,45 +125,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="NetWorkFlow" />
-      <option name="MAIN_CLASS_NAME" value="NetWorkFlow.BipartiteMatchingTest" />
-      <option name="METHOD_NAME" value="exampleThreeMatches2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BipartiteMatchingTest.exampleTwoMatches2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AD-Restart" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="NetWorkFlow.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="NetWorkFlow" />
-      <option name="MAIN_CLASS_NAME" value="NetWorkFlow.BipartiteMatchingTest" />
-      <option name="METHOD_NAME" value="exampleTwoMatches2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ZoombiesMeetingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AD-Restart" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="NetWorkFlow.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="NetWorkFlow" />
-      <option name="MAIN_CLASS_NAME" value="NetWorkFlow.ZoombiesMeetingTest" />
+      <option name="MAIN_CLASS_NAME" value="NetWorkFlow.CemelClubTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZoombiesMeetingTest.simpleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ImageSegmentationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AD-Restart" />
       <extension name="coverage">
         <pattern>
@@ -166,8 +140,38 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="NetWorkFlow" />
-      <option name="MAIN_CLASS_NAME" value="NetWorkFlow.ZoombiesMeetingTest" />
-      <option name="METHOD_NAME" value="simpleTest" />
+      <option name="MAIN_CLASS_NAME" value="NetWorkFlow.ImageSegmentationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProjectSelectionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AD-Restart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="NetWorkFlow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="NetWorkFlow" />
+      <option name="MAIN_CLASS_NAME" value="NetWorkFlow.ProjectSelectionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProjectSelectionTest.example1Proj2Req" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AD-Restart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="NetWorkFlow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="NetWorkFlow" />
+      <option name="MAIN_CLASS_NAME" value="NetWorkFlow.ProjectSelectionTest" />
+      <option name="METHOD_NAME" value="example1Proj2Req" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -186,11 +190,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BipartiteMatchingTest" />
-        <item itemvalue="JUnit.BipartiteMatchingTest.exampleTwoMatches2" />
-        <item itemvalue="JUnit.BipartiteMatchingTest.exampleThreeMatches2" />
-        <item itemvalue="JUnit.ZoombiesMeetingTest.simpleTest" />
-        <item itemvalue="JUnit.ZoombiesMeetingTest" />
+        <item itemvalue="JUnit.BaseballTest" />
+        <item itemvalue="JUnit.ImageSegmentationTest" />
+        <item itemvalue="JUnit.CemelClubTest" />
+        <item itemvalue="JUnit.ProjectSelectionTest.example1Proj2Req" />
+        <item itemvalue="JUnit.ProjectSelectionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -233,7 +237,7 @@
       <workItem from="1674935494671" duration="11773000" />
       <workItem from="1675008677110" duration="38000" />
       <workItem from="1675040871772" duration="7681000" />
-      <workItem from="1675094073187" duration="9079000" />
+      <workItem from="1675094073187" duration="25707000" />
     </task>
     <task id="LOCAL-00001" summary="setup project">
       <created>1655648193879</created>
@@ -305,7 +309,21 @@
       <option name="project" value="LOCAL" />
       <updated>1674976397709</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="network flow">
+      <created>1675116710236</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1675116710236</updated>
+    </task>
+    <task id="LOCAL-00012" summary="network flow">
+      <created>1675116774394</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1675116774394</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -319,7 +337,8 @@
     <MESSAGE value="git ignore" />
     <MESSAGE value="matching thing" />
     <MESSAGE value="progress" />
-    <option name="LAST_COMMIT_MESSAGE" value="progress" />
+    <MESSAGE value="network flow" />
+    <option name="LAST_COMMIT_MESSAGE" value="network flow" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -461,22 +480,22 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/DynamicProgramming/TheQuestForTheHolyGrail.java</url>
-          <line>59</line>
+          <line>54</line>
           <option name="timeStamp" value="94" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/DynamicProgramming/TheQuestForTheHolyGrail.java</url>
-          <line>87</line>
+          <line>82</line>
           <option name="timeStamp" value="95" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/DynamicProgramming/TheQuestForTheHolyGrail.java</url>
-          <line>110</line>
+          <line>105</line>
           <option name="timeStamp" value="96" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/DynamicProgramming/TheQuestForTheHolyGrail.java</url>
-          <line>127</line>
+          <line>122</line>
           <option name="timeStamp" value="97" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -491,12 +510,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/DynamicProgramming/TheFishSalesman.java</url>
-          <line>54</line>
+          <line>66</line>
           <option name="timeStamp" value="101" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/DynamicProgramming/TheFishSalesman.java</url>
-          <line>43</line>
+          <line>44</line>
           <option name="timeStamp" value="104" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -525,7 +544,7 @@
           <option name="timeStamp" value="116" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/NetWorkFlow/BipartiteMatchingTest.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/NetWorkFlow/BipartiteMatchingTest.java</url>
           <line>89</line>
           <option name="timeStamp" value="118" />
         </line-breakpoint>
@@ -533,6 +552,31 @@
           <url>file://$PROJECT_DIR$/src/main/java/NetWorkFlow/BipartiteMatching.java</url>
           <line>393</line>
           <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/NetWorkFlow/ProjectSelection.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/NetWorkFlow/CemelClub.java</url>
+          <line>214</line>
+          <option name="timeStamp" value="133" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/NetWorkFlow/CemelClub.java</url>
+          <line>229</line>
+          <option name="timeStamp" value="134" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/NetWorkFlow/CemelClub.java</url>
+          <line>260</line>
+          <option name="timeStamp" value="135" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/NetWorkFlow/ImageSegmentation.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="136" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/GreedyAlgorithms/FindingTheMedian.java</url>
@@ -605,6 +649,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/NetWorkFlow/SweetsProofTest.java</url>
+          <line>103</line>
+          <properties class="NetWorkFlow.SweetsProofTest" method="simpleExample">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="123" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
