@@ -20,13 +20,6 @@ public class ChoosingBetweenWork {
         Arrays.fill(mem , -1);
         mem[0] = 0;
         for (int j = 1; j <= n; j++) {
-//            if(mem[j-1] == -1){
-//                mem[j-1] = solve(j-1 , s , f , v , p);
-//            }
-//            if(p[j] != -1 && mem[p[j]] == -1){
-//                mem[p[j]] = solve(p[j] , s , f , v , p);
-//            }
-
             if(p[j] != -1) mem[j] = Math.max( v[j] + mem[p[j]] , mem[j-1] );
             else mem[j] = Math.max(v[j] , mem[j-1]);
         }

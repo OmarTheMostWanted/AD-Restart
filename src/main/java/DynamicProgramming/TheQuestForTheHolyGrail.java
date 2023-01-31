@@ -28,13 +28,13 @@ public class TheQuestForTheHolyGrail {
         }
         for (int counter = 1; counter <= n; counter++) {
             for (int i = 1; i <= n; i++) {
-                double[] minEdges = new double[k + 1];
+                double[] minEdges = new double[k + 1]; // cost of reaching i , with k research reductions
                 Arrays.fill(minEdges, Integer.MAX_VALUE);
                 for (Edge e : E) {
                     if (e.to.getId() == i) {
-                        minEdges[0] = Math.min(minEdges[0], e.cost + mem[e.from.getId()][0]);
+                        minEdges[0] = Math.min(minEdges[0], e.cost + mem[e.from.getId()][0]);   //either the previous solution, or take this new edge k == 0 so no research left
                         for (int j = 1; j <= k; j++) {
-                            minEdges[j] = Math.min(minEdges[j], Math.min(mem[e.from.getId()][j - 1] + e.cost * 0.5, mem[e.from.getId()][j] + e.cost));
+                            minEdges[j] = Math.min(minEdges[j], Math.min(mem[e.from.getId()][j - 1] + e.cost * 0.5, mem[e.from.getId()][j] + e.cost)); //either previous solution/ or this edge with or without discount
                         }
                     }
                 }
